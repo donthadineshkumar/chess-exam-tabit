@@ -1,4 +1,3 @@
-import com.google.common.io.Files;
 import org.junit.Before;
 import org.junit.Test;
 
