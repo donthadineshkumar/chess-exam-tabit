@@ -54,15 +54,16 @@ public class ChessBoard {
     //Task 6
     public static void writeChessboardToFile(String filename) throws IOException {
         StringBuffer chessboardSituation = new StringBuffer();
+        String newLine = System.getProperty("line.separator");
         for(int i=7; i >= 0 ; i--){
             chessboardSituation = chessboardSituation.append((i+1)+" ");
             for(int j=0; j <= 7 ; j++){
                 String pieceValue = squares[i][j].getPiece()!=null ? squares[i][j].getPiece().getValue() : "  ";
                 chessboardSituation.append("|").append(pieceValue);
             }
-            chessboardSituation.append("|").append("\r\n");
+            chessboardSituation.append("|").append(newLine);
         }
-        chessboardSituation.append("   a  b  c  d  e  f  g  h").append("\r\n");
+        chessboardSituation.append("   a  b  c  d  e  f  g  h").append(newLine);
 
         try(PrintWriter writer = new PrintWriter("src/test/resources/"+filename,"UTF-8")) {
                 writer.write(chessboardSituation.toString().trim());
