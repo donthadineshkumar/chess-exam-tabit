@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChessBoardInitiationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-05-15T09:36:25" hostname="Dineshs-MacBook-Pro.local" time="0.028">
+  <properties/>
+  <testcase name="initiateChessBoardByChess02FileTest" classname="ChessBoardInitiationTests" time="0.001"/>
+  <testcase name="initiateChessBoardByChessStartupFileTest" classname="ChessBoardInitiationTests" time="0.017"/>
+  <testcase name="initiateChessBoardByChess01FileTest" classname="ChessBoardInitiationTests" time="0.005"/>
+  <testcase name="initiateChessBoardByChess03FileTest" classname="ChessBoardInitiationTests" time="0.002"/>
+  <testcase name="initiateChessBoardTest" classname="ChessBoardInitiationTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
