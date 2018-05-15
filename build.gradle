@@ -47,8 +47,8 @@ dependencies {
     
     // Use FindBugs annotations to ignore specific warnings:
     def findBugsId = 'com.google.code.findbugs:annotations:3.0.1'
-	//compileOnly	    findBugsId
-    //testCompileOnly findBugsId
+	compileOnly	    findBugsId
+    testCompileOnly findBugsId
 }
 
 
